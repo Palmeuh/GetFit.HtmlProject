@@ -1,0 +1,15 @@
+{
+  "name": "getfit.htmlproject",
+  "version": "1.0.0",
+  "description": "Html for my MVC app GetFit",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/style.scss:assets/css/style.css"
+  },
+  "author": "Palmeuh",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.0.2",
+    "bootstrap-icons": "^1.5.0"
+  }
+}
