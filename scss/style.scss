@@ -1,3 +1,14 @@
 @import "custom";
 
-@import "sections/universal";
+//components
+@import "components/mixins";
+@import "components/typography";
+@import "components/buttons";
+
+@import "sections/General/universal";
+@import "sections/General/navbar";
+@import "sections/General/footer";
+@import "sections/General/navMenuMobile";
+
+//Home page
+@import "sections/HomeIndex/homeIndexIntro";

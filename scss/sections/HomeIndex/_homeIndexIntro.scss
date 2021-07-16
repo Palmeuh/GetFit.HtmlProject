@@ -1,0 +1,57 @@
+@import "../../custom";
+@import "../../components/mixins";
+
+.homeIndexIntro {
+  @include primaryGradient;
+  height: 100%;
+  padding-top: 5rem;
+  text-align: center;
+  text-justify: auto;
+  color: $light;
+
+  .homeIndexIntroContainer {
+    height: 100%;
+    justify-content: space-between;
+  }
+
+  .headlineBtn {
+    width: 100%;
+    background-color: $secondary;
+    border: none;
+    padding: 0.6rem 0.5rem;
+    color: $light;
+    font-weight: bold;
+    box-shadow: $box-shadow;
+    margin-top: 1rem;
+  }
+}
+
+.iconBoxRow {
+  padding-top: 2rem;
+
+  .iconBox {
+    margin-top: 1rem;
+  }
+}
+
+.homeIntroBoxColumn {
+  text-align: center;
+  text-transform: capitalize;
+
+  .homeIntroImageBox {
+    color: $gray-100;
+    width: 8rem;
+    height: 4rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $bg-third;
+    padding: 0;
+
+    i {
+      font-size: 2rem;
+      color: $light;
+    }
+  }
+}

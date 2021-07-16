@@ -1,0 +1,30 @@
+@import "../../custom";
+@import "../../components/mixins";
+
+#navMenuMobile {
+  background-color: $bg-third;
+
+  div {
+    text-align: center;
+    padding: 0;
+
+    button {
+      width: 100%;
+      margin: 0;
+      border-radius: 0;
+      border: none;
+      background-color: transparent;
+      color: $light;
+    }
+    #navMenuMobileBtnMiddle {
+      border-left: 1px solid rgba(0, 0, 0, 0.239);
+      border-right: 1px solid rgba(0, 0, 0, 0.239);
+    }
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  #navMenuMobile {
+    display: none;
+  }
+}

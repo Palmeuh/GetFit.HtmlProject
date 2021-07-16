@@ -1,0 +1,11 @@
+@import "../../custom";
+@import "../../components/mixins";
+
+.navbar {
+  background-color: $bg-third;
+  color: $light;
+
+  .navbar-toggler {
+    border: none;
+  }
+}
