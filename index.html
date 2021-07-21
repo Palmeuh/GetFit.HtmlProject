@@ -4,7 +4,72 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>GetFit</title>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- LINKS -->
+    <link rel="stylesheet" href="css/site.css" />
+    <link
+      rel="stylesheet"
+      href="node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+    />
   </head>
-  <body></body>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="logo">
+        <a href="#">
+          <i class="fab fa-github-square"></i>
+        </a>
+      </div>
+      <nav class="nav nav--general">
+        <div class="nav__list">
+          <li class="list__item">
+            <a href="#" class="nav__link">Excercises</a>
+          </li>
+          <li class="list__item"><a href="#" class="nav__link">Workouts</a></li>
+          <li class="list__item"><a href="#" class="nav__link">Programs</a></li>
+          <li class="list__item"><a href="#" class="nav__link">Shop</a></li>
+        </div>
+      </nav>
+      <nav class="nav nav--membership">
+        <div class="nav__list nav__list--membership">
+          <li class="list__item"><a href="#" class="nav__link">Login</a></li>
+          <li class="list__item"><a href="#" class="nav__link">Register</a></li>
+        </div>
+      </nav>
+    </header>
+    <!-- INTRO -->
+    <section class="intro">
+      <div class="introContainer">
+        <div class="introContainerWelcome">
+          <h1 class="section__intro--title">GetFit</h1>
+          <p class="section__intro--subtitle">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad odio
+            rerum quod, placeat quia consequatur.
+          </p>
+        </div>
+        <div class="introContainerMessage">
+          <form action="post" class="intro__form">
+            <label for="email">Email Adress:</label><br />
+            <input type="email" id="email" name="email" /><br />
+            <label for="password">Password:</label><br />
+            <input type="password" id="password" name="password" />
+          </form>
+          <div class="intro__buttonContainer">
+            <button class="btn">Sign in</button>
+            <button class="btn">Register</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <!-- SCRIPTS -->
+    <script src="js/site.js"></script>
+  </body>
 </html>
