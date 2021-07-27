@@ -62,7 +62,10 @@ h1,h2,h3 {
 }
 
 section {
-    padding: 5em 2em;
+    padding-top: 3rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 3rem;
 }
 
 h1 {
@@ -261,6 +264,7 @@ color: var(--clr-light);
 .infoContainer {
     display: flex;
     flex-direction: column;
+    padding-bottom: 3rem;
     
 }
 
@@ -271,4 +275,61 @@ color: var(--clr-light);
     margin-bottom: 1rem;
 }
 
+.introduction--information {
+    padding-bottom: 4rem;
+}
+
+
+
+
+/* FOOTER */
+
+.footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--clr-dark);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.footerContainer {
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+.footerContainer > div {
+    margin: 0.5rem 0;
+}
+
+.footer__mainIconContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.footer__mainIconContainer > p {
+    font-size: var(--fs-h3);
+    font-weight: var(--fw-bold);
+    color: var(--clr-light);
+}
+
+.footer__socialMediaIcons i + i {
+margin-left: 1rem;
+}
+
+.footer i {
+    font-size: 2rem;
+    color: var(--clr-light);
+}
+
+.footer__copyright {
+    color: var(--clr-light);
+    font-size: 0.75rem;
+}
 
